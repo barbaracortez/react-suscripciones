@@ -1,17 +1,16 @@
 import './App.css'
+import Header from './components/Header'
+import './components/Header'
+
 
 function App() {
-  
+ 
   return (
     <>
-      <div>
-        <h2>Buenas</h2>
+      <div className="App"> 
+        <Header/>
+        <h1>Hola</h1>
       </div>
-      
-      <div className="card">
-        
-      </div>
-      
     </>
   )
 }
